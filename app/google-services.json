@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "757264797657",
+    "project_id": "nonono-1cf29",
+    "storage_bucket": "nonono-1cf29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757264797657:android:bd6f7116cda756a6b0d3c8",
+        "android_client_info": {
+          "package_name": "com.example.nonono"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757264797657-t6dqhip79srill2fo6oaolel2lespfcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2M7wv0G-aaNNwWm2Ch9mF1MkINOykPXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757264797657-t6dqhip79srill2fo6oaolel2lespfcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

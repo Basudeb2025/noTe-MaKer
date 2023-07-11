@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_marginStart="10dp"
+         android:layout_width="182dp"
+         android:layout_height="49dp"
+         android:text="Disclaimer !!"
+         android:textColor="@color/black"
+         android:textSize="30dp"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.075"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.052" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_marginTop="10dp"
+         android:layout_marginStart="10dp"
+         android:layout_width="361dp"
+         android:layout_height="368dp"
+         android:text="Here you can save your own written notes.But don't save your any kind of private notes.You're not allow to save your personal data as there is no privacy in the backend.But we assure you that it  will not bring any trouble in later .it's confirm. You can save any usual data of your self in this app .it will be save on the basis of your mail ID . So don't worry!...keep fidelity on us."
+         android:textColor="@color/black"
+         android:textSize="25dp"
+         android:textStyle="italic"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.47"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.281" />
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="116dp"
+            android:layout_height="48dp"
+            android:text="I agree"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.087"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.678" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="97dp"
+            android:layout_height="47dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="ok"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.742" />
+   </LinearLayout>
+
+
+</LinearLayout>
